@@ -1,0 +1,39 @@
+- name: "Applications"
+  description: "Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - audacity
+    - auto-cpufreq
+    - brave-bin
+    - cheese
+    - code
+    - emacs
+    - firefox
+    - flameshot
+    - flatpak
+    - galculator
+    - gimp
+    - htop
+    - kazam
+    - keepassxc
+    - kitty
+    - meld
+    - mpv
+    - telegram-desktop
+    - tlp
+    - tmux
+    - transmission-gtk
+    - yay-bin
+- name: "Utilities for Timeshift and Btrfs"
+  description: "Utility software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - grub-btrfs
+    - timeshift
+    - timeshift-autosnap

@@ -1,0 +1,50 @@
+- name: "Xorg"
+  description: "Installs X system"
+  critical: false
+  hidden: false
+  selected: true
+  expanded: true
+  packages:
+    - xorg
+- name: "Login Manager: Lightdm"
+  description: "Installs lightdm"
+  critical: false
+  hidden: false
+  selected: true
+  expanded: true
+  packages:
+    - lightdm
+    - lightdm-gtk-greeter
+    - lightdm-gtk-greeter-settings
+- name: "Desktop: Xfce4"
+  description: "Installs xfce4 desktop"
+  critical: false
+  hidden: false
+  selected: true
+  expanded: true
+  packages:
+    - xfce4
+    - xfce4-goodies
+- name: "Desktop: i3"
+  description: "Installs i3 desktop"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - autotiling
+    - dmenu
+    - feh
+    - i3blocks
+    - i3-gaps
+    - i3status
+    - nitrogen
+    - picom
+    - polkit-gnome
+    - rofi
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - volumeicon
+    - xfce4-terminal
+    - xfce4-panel
